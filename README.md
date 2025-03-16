@@ -72,8 +72,9 @@ This project aims to recreate the UI/UX of the Wii Menu so anyone can relive it,
 This project utilizes sprites and assets found online that are the property of Nintendo.
 
 Majority of resources found here:
-Sprites: https://www.spriters-resource.com/wii/wiimenu/
-Sounds: https://www.sounds-resource.com/wii/systembioswii/sound/21664/
+
+- [Sprites](https://www.spriters-resource.com/wii/wiimenu/)
+- [Sounds](https://www.sounds-resource.com/wii/systembioswii/sound/21664/)
 
 Some assets that couldn't be located were individually recreated using GIMP.
 
@@ -177,8 +178,10 @@ Nintendo Wiiは個人的にUI/UXの面で最も印象的なコンソールであ
 
 このプロジェクトは、任天堂の所有物であるオンラインで見つけたスプライトやアセットを利用しています。
 リソースの大部分はこちらから入手しました：
-スプライト: https://www.spriters-resource.com/wii/wiimenu/
-サウンド: https://www.sounds-resource.com/wii/systembioswii/sound/21664/
+
+- [スプライト](https://www.spriters-resource.com/wii/wiimenu/)
+- [サウンド](https://www.sounds-resource.com/wii/systembioswii/sound/21664/)
+
 見つからなかったアセットの一部は個別にGIMPを使用して再作成されました。
 
 ## 法的免責事項
