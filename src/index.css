@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+@layer theme, base, components, utilities;
+@custom-variant dark (&:is(.dark *));
+
+/* Create a primary color to refer to as bg-primary */
+@layer base {
+	:root {
+		--color-bg-primary: #0c0d10;
+		--color-bg-subpage: #13141a;
+		--color-bg-subpage-subtle: #16171f;
+		--color-bg-sidebar: #1a1b23;
+		--color-bg-sidebar-secondary: #1e1f28;
+		--color-bg-hover: #23242e;
+		--color-bg-hover-subtle: #26272f;
+	}
+}
+
+@layer utilities {
+	.wii-blue {
+		color: #31bdef;
+	}
+	.bg-wii-blue {
+		background-color: #31bdef;
+	}
+	.border-wii-blue {
+		border-color: #31bdef;
+	}
+	.hover\:bg-wii-blue:hover {
+		background-color: #31bdef;
+	}
+	.hover\:text-wii-blue:hover {
+		color: #31bdef;
+	}
+	.hover\:border-wii-blue:hover {
+		border-color: #31bdef;
+	}
+	/* border top wii blue */
+	.border-t-wii-blue {
+		border-top-color: #31bdef;
+	}
+
+	.bg-primary {
+		background-color: var(--color-bg-primary);
+	}
+	.bg-subpage {
+		background-color: var(--color-bg-subpage);
+	}
+	.bg-subpage-subtle {
+		background-color: var(--color-bg-subpage-subtle);
+	}
+	.bg-sidebar {
+		background-color: var(--color-bg-sidebar);
+	}
+	.bg-sidebar-secondary {
+		background-color: var(--color-bg-sidebar-secondary);
+	}
+	.bg-hover {
+		background-color: var(--color-bg-hover);
+	}
+	.bg-hover-subtle {
+		background-color: var(--color-bg-hover-subtle);
+	}
+
+	.animate-fast-pulse {
+		animation: fastPulse 1200ms ease-in-out infinite;
+	}
+
+	@keyframes fastPulse {
+		0%,
+		100% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0.9;
+		}
+	}
+}
+
+scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+
+.scrollbar-hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
